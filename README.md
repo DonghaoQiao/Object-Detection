@@ -10,7 +10,10 @@ My Object Detection Playground
 
 ## R-CNN: Region-based Convolutional Network  
 [paper](https://arxiv.org/pdf/1311.2524.pdf)  
-Three modules: Generate category-independent region proposals; use CNN to extract feature vector from each region; use SVM to classify feature.  
+Three modules:  
+* Generate category-independent region proposals  
+* Use CNN to extract feature vector from each region  
+* Use SVM to classify features  
 
 ## Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  

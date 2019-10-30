@@ -2,7 +2,7 @@
 My Object Detection Playground  
 
 [Reference](https://github.com/hoya012/deep_learning_object_detection)  
-[https://github.com/hoya012/deep_learning_object_detection]
+<https://github.com/hoya012/deep_learning_object_detection>
 
 ## Paper list from 2014 to now(2019)
 <p align="center">

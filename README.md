@@ -11,9 +11,10 @@ Reference
 
 ### R-CNN: Region-based Convolutional Network  
 [paper](https://arxiv.org/pdf/1311.2524.pdf)  
-<p align="center">
-  <img width="600" src="/imgs/R-CNN.jpg">
+<p align="left">
+  <img width="400" src="/imgs/R-CNN.jpg">
 </p>
+
 Three modules:  
 * Region proposals. Using **selective search** to enerate category-independent region proposals.  
 * Feature extraction. Using CNN to extract a fixed-length feature vector from each region.  

@@ -5,7 +5,7 @@ My Object Detection Playground
 
 ## Paper list from 2014 to now(2019)
 <p align="center">
-  <img width="1000" src="/imgs/deep_learning_object_detection_history.PNG" "Example of object detection.">
+  <img width="600" src="/imgs/deep_learning_object_detection_history.PNG">
 </p>
 
 ## R-CNN: Region-based Convolutional Network  

@@ -5,15 +5,11 @@ Reference
 <https://github.com/hoya012/deep_learning_object_detection>
 
 ### Paper list from 2014 to now(2019)
-<p align="center">
-  <img width="600" src="/imgs/deep_learning_object_detection_history.jpg">
-</p>
+<p align="center"><img width="600" src="/imgs/deep_learning_object_detection_history.jpg"></p>
 
 ### R-CNN: Region-based Convolutional Network  
 [paper](https://arxiv.org/pdf/1311.2524.pdf)  
-<p align="left">
-  <img width="400" src="/imgs/R-CNN.jpg">
-</p>
+<p align="left"><img width="400" src="/imgs/R-CNN.jpg"></p>
 
 Three modules:  
 * Region proposals. Using **selective search** to enerate category-independent region proposals.  
@@ -22,6 +18,7 @@ Three modules:
 
 ### Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  
+Using a single-stage training algorithm to classify object proposals and refine their spatial locations simultaneously.  
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
@@ -38,3 +35,10 @@ Three modules:
 
 ### SSD: Single Shot MultiBox Detector  
 [paper](https://arxiv.org/pdf/1512.02325.pdf)  
+
+
+
+
+
+
+

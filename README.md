@@ -29,9 +29,9 @@ Three modules:
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
 <p align="left"><img width="200" src="/imgs/Faster-R-CNN.jpg"></p>
 
-* RPN  
-* CNN  
-* ROI  
+* Using **Region Proposal Networks(RPNs)** to compute region proposals.  
+* Using **CNN** and max pooling layers to produce a conv feature map.  
+* Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector from the feature map.  
 
 ### YOLO: You Only Look Once
 ### YOLOv1  

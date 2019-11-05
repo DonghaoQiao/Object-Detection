@@ -11,7 +11,6 @@ Reference
 [paper](https://arxiv.org/pdf/1311.2524.pdf)  
 <p align="left"><img width="400" src="/imgs/R-CNN.jpg"></p>
 
-Three modules:  
 * Using **selective search** to generate category-independent region proposals.  
 * Using **CNN** to extract a fixed-length feature vector from each region.  
 * Using **linear SVMs** to do classification.  
@@ -22,16 +21,17 @@ Three modules:
 
 * Using **selective search** to generate category-independent region proposals.  
 * Using **CNN** and max pooling layers to produce a conv feature map.  
-* Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector from the feature map.  
+* Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector(6*6) from the feature map.  
 * Using **Softmax** to do classification.  
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
 <p align="left"><img width="200" src="/imgs/Faster-R-CNN.jpg"></p>
 
-* Using **Region Proposal Networks(RPNs)** to compute region proposals.  
+* Using **Region Proposal Networks(RPNs)** to generate region proposals.  
 * Using **CNN** and max pooling layers to produce a conv feature map.  
-* Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector from the feature map.  
+* Using **RoI** pooling to extract a fixed-length feature vector(6*6) from the feature map.  
+* Using **Softmax** to do classification.  
 
 ### YOLO: You Only Look Once
 ### YOLOv1  

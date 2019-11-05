@@ -14,7 +14,7 @@ Reference
 * Using **Selective Search** to extract category-independent region proposals.  
 * Using **CNN** to extract a fixed-length feature vector from each region.  
 * Using **Linear SVMs** to do classification.  
-* Using **Fine Tuning** to do **Bounding Box Regression**
+* Using **Fine Tuning** to do **Bounding Box Regression**.  
 
 ### Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  
@@ -24,6 +24,7 @@ Reference
 * Using **CNN** and max pooling layers to produce a conv feature map.  
 * Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector(6*6) from the feature map.  
 * Using **Softmax** to do classification.  
+Using **Fine Tuning** to do **Bounding Box Regression**.  
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
@@ -33,6 +34,7 @@ Reference
 * Using **CNN** and max pooling layers to produce a conv feature map.  
 * Using **RoI** pooling to extract a fixed-length feature vector(6*6) from the feature map.  
 * Using **Softmax** to do classification.  
+Using **Fine Tuning** to do **Bounding Box Regression**.  
 
 ### YOLO: You Only Look Once
 ### YOLOv1  

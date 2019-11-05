@@ -3,6 +3,7 @@ My Object Detection Playground
 
 Reference  
 <https://github.com/hoya012/deep_learning_object_detection>  
+<https://github.com/amusi/awesome-object-detection>  
 <https://arxiv.org/pdf/1809.02165v1.pdf>
 
 ### Paper list from 2014 to now(2019)

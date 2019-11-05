@@ -12,15 +12,16 @@ Reference
 <p align="left"><img width="400" src="/imgs/R-CNN.jpg"></p>
 
 Three modules:  
-* Using **selective search** to enerate category-independent region proposals.  
+* Using **selective search** to generate category-independent region proposals.  
 * Using **CNN** to extract a fixed-length feature vector from each region.  
-* Using **linear SVMs** to classify features.  
+* Using **linear SVMs** to do classification.  
 
 ### Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  
-* Selective Search  
-* CNN  
-* ROI  
+* Using **selective search** to generate category-independent region proposals.  
+* Using **CNN** and max pooling layers to produce a conv feature map.  
+* Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector from the feature map.  
+* Using **Softmax** to do classification.  
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  

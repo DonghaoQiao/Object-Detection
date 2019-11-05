@@ -12,16 +12,21 @@ Reference
 <p align="left"><img width="400" src="/imgs/R-CNN.jpg"></p>
 
 Three modules:  
-* Region proposals. Using **selective search** to enerate category-independent region proposals.  
-* Feature extraction. Using CNN to extract a fixed-length feature vector from each region.  
-* Object category classifiers. Using linear SVMs to classify features.  
+* Using **selective search** to enerate category-independent region proposals.  
+* Using **CNN** to extract a fixed-length feature vector from each region.  
+* Using **linear SVMs** to classify features.  
 
 ### Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  
-Using a single-stage training algorithm to classify object proposals and refine their spatial locations simultaneously.  
+* Selective Search  
+* CNN  
+* ROI  
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
+* RPN  
+* CNN  
+* ROI  
 
 ### YOLO: You Only Look Once
 ### YOLOv1  

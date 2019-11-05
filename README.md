@@ -18,6 +18,8 @@ Three modules:
 
 ### Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  
+<p align="left"><img width="400" src="/imgs/Fast-R-CNN.jpg"></p>
+
 * Using **selective search** to generate category-independent region proposals.  
 * Using **CNN** and max pooling layers to produce a conv feature map.  
 * Using **Region of Interests(RoI)** poolin to extract a fixed-length feature vector from the feature map.  
@@ -25,6 +27,8 @@ Three modules:
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
+<p align="left"><img width="400" src="/imgs/Faster-R-CNN.jpg"></p>
+
 * RPN  
 * CNN  
 * ROI  

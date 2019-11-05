@@ -18,7 +18,7 @@ Three modules:
 
 ### Fast R-CNN  
 [paper](https://arxiv.org/pdf/1504.08083.pdf)  
-<p align="left"><img width="400" src="/imgs/Fast-R-CNN.jpg"></p>
+<p align="left"><img width="300" src="/imgs/Fast-R-CNN.jpg"></p>
 
 * Using **selective search** to generate category-independent region proposals.  
 * Using **CNN** and max pooling layers to produce a conv feature map.  
@@ -27,7 +27,7 @@ Three modules:
 
 ### Faster R-CNN  
 [paper](https://arxiv.org/pdf/1506.01497.pdf)  
-<p align="left"><img width="400" src="/imgs/Faster-R-CNN.jpg"></p>
+<p align="left"><img width="200" src="/imgs/Faster-R-CNN.jpg"></p>
 
 * RPN  
 * CNN  

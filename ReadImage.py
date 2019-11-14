@@ -1,3 +1,4 @@
+# Three methods to read grayscale image
 import matplotlib.pyplot as plt
 plt.figure(figsize=(15,5))
 
@@ -18,9 +19,8 @@ plt.imshow(img)
 # pillow
 plt.subplot(133)
 from PIL import Image
-import numpy as np
 img = Image.open('lena.jpg').convert('L')
 plt.title('PIL',fontsize=20)
-plt.imshow(arr)
+plt.imshow(img)
 
 plt.show()
